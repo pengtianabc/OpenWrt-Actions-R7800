@@ -1,0 +1,26 @@
+Package: luci-app-ssr-plus
+Version: 180-1
+Depends: libc, shadowsocksr-libev-alt, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, pdnsd-alt, wget, lua, libuci-lua, microsocks, dns2socks, shadowsocks-libev-ss-local, shadowsocksr-libev-ssr-local, shadowsocks-libev-ss-redir, simple-obfs, tcpping, resolveip, v2ray, trojan, ipt2socks, redsocks2
+Source: feeds/helloworld/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 113724
+Filename: luci-app-ssr-plus_180-1_all.ipk
+Size: 113138
+SHA256sum: 798c8f7f854bc28dbc202b766169be000451b9bfa22fbbab67115058877d32fd
+Description:  SS/SSR/V2Ray/Trojan/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 180-1
+Depends: libc, luci-app-ssr-plus
+Source: feeds/helloworld/luci-app-ssr-plus
+SourceName: luci-i18n-ssr-plus-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 5978
+Filename: luci-i18n-ssr-plus-zh-cn_180-1_all.ipk
+Size: 6778
+SHA256sum: b79ec60876ad20177b7cf0acd38a701a6d78ec1806e4db603eb01b882f918d10
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
